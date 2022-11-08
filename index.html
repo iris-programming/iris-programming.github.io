@@ -40,6 +40,9 @@
 <li class="nav-item">
 <a class="nav-link" href="#publications">Publications</a>
 </li>
+<li class="nav-item">
+<a class="nav-link" href="#citation">Citation</a>
+</li>
 <!--
 <li class="nav-item">
 <a class="nav-link" href="#team">Team</a>
@@ -393,6 +396,60 @@ Anthony Cabrera, Seth Hitefield, Jungwon Kim, Seyong Lee, Narasinga Rao Miniskar
 <a href='https://doi.org/10.1109/HPEC49654.2021.9622794' class="btn btn-outline-success">doi</a>
 <a href='pdf/hpec21-cosmiccastle.pdf' class="btn btn-outline-success">pdf</a>
 <a href='pdf/hpec21-cosmiccastle-slide.pdf' class="btn btn-outline-success">slide</a>
+</div>
+</div>
+
+</div>
+
+<!-- SEC:CITATION -->
+
+<p id='citation' class='my-5'>&nbsp;</p>
+<div>
+<h1>Citation</h1>
+
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">
+If you use IRIS, please cite the following paper:
+</p>
+IRIS: A Portable Runtime System Exploiting Multiple Heterogeneous Programming Systems
+<span class="badge bg-dark">HPEC 2021</span>
+</h5>
+<p class="card-text">
+Jungwon Kim, Seyong Lee, Beau Johnston, Jeffrey S. Vetter
+</p>
+<button type='button' class='btn btn-success' data-bs-toggle='modal' data-bs-target='#delmodal'>cite this</button>
+<a href='https://doi.org/10.1109/HPEC49654.2021.9622873' class="btn btn-outline-success">doi</a>
+<a href='pdf/hpec21-iris.pdf' class="btn btn-outline-success">pdf</a>
+<a href='pdf/hpec21-iris-slide.pdf' class="btn btn-outline-success">slide</a>
+
+<div class='modal fade' id='delmodal' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<h5 class='modal-title'>IRIS BibTeX</h5>
+<button type='button' class='btn-close' data-bs-dismiss='modal'></button>
+</div>
+<div class='modal-body text-start'>
+<pre class='font-sm' id="bib">
+@inproceedings{Kim:2021:IRIS,
+ author={Jungwon Kim and Seyong Lee and Beau Johnston and Jeffrey S. Vetter},
+ title={{IRIS: A Portable Runtime System Exploiting Multiple Heterogeneous Programming Systems}},
+ booktitle={Proceedings of the 25th IEEE High Performance Extreme Computing Conference},
+ series={HPEC '21},
+ year={2021},
+ pages={1-8},
+ doi={10.1109/HPEC49654.2021.9622873}
+}
+</pre>
+</div>
+<div class='modal-footer'>
+<button type='button' class='btn btn-dark' onclick='copytoclipboard("bib")'><i class="far fa-copy"></i> Copy</button>
+</div>
+</div>
+</div>
+</div>
+
 </div>
 </div>
 
