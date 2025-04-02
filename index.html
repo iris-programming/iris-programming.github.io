@@ -1,362 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-<meta http-equiv="Cache-Control" content="No-Cache">
-<meta http-equiv="Pragma" content="No-Cache">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<link href="favicon.svg" rel="icon">
-<link href="iris.css?v=1" rel="stylesheet">
-<script src="https://kit.fontawesome.com/b77f67f803.js" crossorigin="anonymous"></script>
-<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-<script src="iris.js?v=1"></script>
-<title>IRIS</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Cache-Control" content="No-Cache">
+  <meta http-equiv="Pragma" content="No-Cache">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="favicon.svg" rel="icon">
+  <link href="iris.css?v=1" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b77f67f803.js" crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+  <script src="iris.js?v=1"></script>
+  <title>IRIS</title>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-<div class="container-fluid">
-<a class="navbar-brand" href="/"><span class="iconify-inline" data-icon="mdi:graph-outline"></span>IRIS</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-<span class="navbar-toggler-icon">nav</span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link" href="#">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#features">Features</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#docs">Docs</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#events">Events</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#publications">Publications</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#citation">Citation</a>
-</li>
-<!--
-<li class="nav-item">
-<a class="nav-link" href="#team">Team</a>
-</li>
--->
-</ul>
-</div>
-</div>
-</nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><span class="iconify-inline" data-icon="mdi:graph-outline"></span>IRIS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">nav</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#docs">Docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#citation">Citation</a>
+          </li>
+          <!--
+          <li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+          </li>
+          -->
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<div class="container-fluid">
+  <div class="container-fluid">
 
-<!-- SEC:HOME -->
+    <!-- SEC:HOME -->
 
-<div class="card mt-2 mb-0 border-0">
-<img class="card-img" alt="Mountain Splash" src="img/gsm.png">
-<div class="card-img-overlay text-center text-light d-flex flex-column justify-content-center">
-<h1 class="display-1">IRIS</h1>
-<h1 class="lead fst-italic">From Edge To Exascale</h1>
-</div>
-</div>
+    <div class="card mt-2 mb-0 border-0">
+      <img class="card-img" alt="Mountain Splash" src="img/gsm.png">
+      <div class="card-img-overlay text-center text-light d-flex flex-column justify-content-center">
+        <h1 class="display-1">IRIS</h1>
+        <h1 class="lead fst-italic">From Edge To Exascale</h1>
+      </div>
+    </div>
 
-<div class="card my-0">
-<div class="card-body">
-<h5 class="card-title">
-A unified framework across multiple programming platforms
-</h5>
-<p class="card-text">
-IRIS enables programmers to write portable programs across diverse heterogeneous architectures from edge to exascale. An IRIS application can exploit multiple programming platforms including CUDA, Hexagon, HIP, Level Zero, OpenCL, and OpenMP at the same time.
-<span class="text-info">
-&num;Tasking
-&num;CPU
-&num;GPU
-&num;FPGA
-&num;DSP
-&num;C/C++
-&num;Fortran
-&num;Python
-&num;Snapdragon
-&num;Summit
-</span>
-</p>
-<p>IRIS is developed by Oak Ridge National Laboratory and is freely available under the BSD 3-Clause license.</p>
-<a href="https://github.com/ORNL/iris" class="btn btn-info text-white me-1"><i class="fab fa-github fa-2x me-1"></i>GitHub</a>
-<!--
-<a href="https://hub.docker.com/r/ORNL/iris" class="btn btn-info text-white me-1"><i class="fab fa-docker fa-2x me-1"></i>docker</a>
-<a href="https://pypi.org/project/pyiris" class="btn btn-info text-white me-1"><i class="fab fa-python fa-2x me-1"></i>PyPI</a>
--->
-<p class="my-1"></p>
-<!--
-<a class="me-1" href="https://github.com/jungwonkim/iris/actions/workflows/ci.yml"><img src="https://github.com/jungwonkim/iris/actions/workflows/ci.yml/badge.svg"></a>
-<a class="me-1" href="https://github.com/jungwonkim/iris/actions/workflows/nightly.yml"><img src="https://github.com/jungwonkim/iris/actions/workflows/nightly.yml/badge.svg"></a>
-<a class="me-1" href="https://github.com/jungwonkim/iris/actions/workflows/docs.yml"><img src="https://github.com/jungwonkim/iris/actions/workflows/docs.yml/badge.svg"></a>
-<a class="me-1" href="https://my.cdash.org/index.php?project=IRIS"><img src="https://jungwon.kim/cdash?p=IRIS"></a>
-<a class="me-1" href="https://github.com/jungwonkim/iris/releases"><img src="https://img.shields.io/github/v/release/jungwonkim/iris?label=github&color=orange"></a>
-<a class="me-1" href="https://hub.docker.com/r/jungwonkim/iris/tags"><img src="https://img.shields.io/docker/v/jungwonkim/iris?label=docker"></a>
-<a class="me-1" href="https://pypi.org/project/pyiris"><img src="https://img.shields.io/pypi/v/pyiris"></a>
--->
-<a class="me-1" href="https://github.com/ORNL/iris/blob/main/LICENSE" alt="License"><img src="https://img.shields.io/badge/license-BSD%203--Clause-blue" alt="License"></a>
-<a class="me-1" href="https://www.ornl.gov/group/programming-systems" alt="Developers"><img src="https://img.shields.io/badge/developed%20by-ORNL-007833" alt="License"></a>
-<a class='me-1' href='https://github.com/ORNL/iris/blob/main/LICENSE'><img src='https://img.shields.io/badge/license-BSD%203--Clause-blue'></a>
-<a class='me-1' href='https://www.ornl.gov/group/programming-systems'><img src='https://img.shields.io/badge/developed%20by-ORNL-007833'></a>
-</div>
-</div>
+    <div class="card my-0">
+      <div class="card-body">
+        <h5 class="card-title">
+          A unified framework across multiple programming platforms
+        </h5>
+        <p class="card-text">
+          IRIS enables programmers to write portable programs across diverse heterogeneous architectures from edge to
+          exascale. An IRIS application can exploit multiple programming platforms including CUDA, Hexagon, HIP, Level
+          Zero, OpenCL, and OpenMP at the same time.
+          <span class="text-info">
+            &num;Tasking
+            &num;CPU
+            &num;GPU
+            &num;FPGA
+            &num;DSP
+            &num;C/C++
+            &num;Fortran
+            &num;Python
+            &num;Snapdragon
+            &num;Summit
+          </span>
+        </p>
+        <p>IRIS is developed by Oak Ridge National Laboratory and is freely available under the BSD 3-Clause license.
+        </p>
+        <a href="https://github.com/ORNL/iris" class="btn btn-info text-white me-1"><i
+            class="fab fa-github fa-2x me-1"></i>GitHub</a>
+        <!--
+        <a href="https://hub.docker.com/r/ORNL/iris" class="btn btn-info text-white me-1"><i class="fab fa-docker fa-2x me-1"></i>docker</a>
+        <a href="https://pypi.org/project/pyiris" class="btn btn-info text-white me-1"><i class="fab fa-python fa-2x me-1"></i>PyPI</a>
+        -->
+        <p class="my-1"></p>
+        <!--
+        <a class="me-1" href="https://github.com/jungwonkim/iris/actions/workflows/ci.yml"><img src="https://github.com/jungwonkim/iris/actions/workflows/ci.yml/badge.svg"></a>
+        <a class="me-1" href="https://github.com/jungwonkim/iris/actions/workflows/nightly.yml"><img src="https://github.com/jungwonkim/iris/actions/workflows/nightly.yml/badge.svg"></a>
+        <a class="me-1" href="https://github.com/jungwonkim/iris/actions/workflows/docs.yml"><img src="https://github.com/jungwonkim/iris/actions/workflows/docs.yml/badge.svg"></a>
+        <a class="me-1" href="https://my.cdash.org/index.php?project=IRIS"><img src="https://jungwon.kim/cdash?p=IRIS"></a>
+        <a class="me-1" href="https://github.com/jungwonkim/iris/releases"><img src="https://img.shields.io/github/v/release/jungwonkim/iris?label=github&color=orange"></a>
+        <a class="me-1" href="https://hub.docker.com/r/jungwonkim/iris/tags"><img src="https://img.shields.io/docker/v/jungwonkim/iris?label=docker"></a>
+        <a class="me-1" href="https://pypi.org/project/pyiris"><img src="https://img.shields.io/pypi/v/pyiris"></a>
+        -->
+        <a class="me-1" href="https://github.com/ORNL/iris/blob/main/LICENSE" alt="License"><img
+            src="https://img.shields.io/badge/license-BSD%203--Clause-blue" alt="License"></a>
+        <a class="me-1" href="https://www.ornl.gov/group/programming-systems" alt="Developers"><img
+            src="https://img.shields.io/badge/developed%20by-ORNL-007833" alt="License"></a>
+      </div>
+    </div>
 
-<!-- SEC:FEATURES -->
+    <!-- SEC:FEATURES -->
 
-<p id="features" class="my-5">&nbsp;</p>
-<div>
-<h1>Features</h1>
+    <p id="features" class="my-5">&nbsp;</p>
+    <div>
+      <h1>Features</h1>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Orchestrating multiple programming platforms
-</h5>
-<p class="card-text">
-IRIS provides task-based programming and execution models. A task is portable across all the available programming platforms and can be run on any accelerator in the system.
-</p>
-<img src="img/iris.png" alt="IRIS Overview" class="img-fluid">
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Orchestrating multiple programming platforms
+          </h5>
+          <p class="card-text">
+            IRIS provides task-based programming and execution models. A task is portable across all the available
+            programming platforms and can be run on any accelerator in the system.
+          </p>
+          <img src="img/iris.png" alt="IRIS Overview" class="img-fluid">
+        </div>
+      </div>
 
-<p></p>
+      <p></p>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Flexible task scheduling and portable applications
-</h5>
-<p class="card-text">
-IRIS portable tasks enable flexible task scheduling across different accelerators and application portability across different hardware configurations.
-</p>
-<img src="img/tasking.png" alt="Tasking" class="img-fluid">
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Flexible task scheduling and portable applications
+          </h5>
+          <p class="card-text">
+            IRIS portable tasks enable flexible task scheduling across different accelerators and application
+            portability across different hardware configurations.
+          </p>
+          <img src="img/tasking.png" alt="Tasking" class="img-fluid">
+        </div>
+      </div>
 
-<p></p>
+      <p></p>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Write once, build once, run anywhere
-</h5>
-<p class="card-text">
-Programmers do not need to re-compile and even re-link their applications for different target architectures. IRIS automatically discovers all the available accelerators and their programming platforms in the target system at run time, and runs the applications on top of them.
-</p>
-<img src="img/screenshots.png" alt="Screenshots" class="img-fluid">
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Write once, build once, run anywhere
+          </h5>
+          <p class="card-text">
+            Programmers do not need to re-compile and even re-link their applications for different target
+            architectures. IRIS automatically discovers all the available accelerators and their programming platforms
+            in the target system at run time, and runs the applications on top of them.
+          </p>
+          <img src="img/screenshots.png" alt="Screenshots" class="img-fluid">
+        </div>
+      </div>
 
-<p></p>
+      <p></p>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Customizable plugins
-</h5>
-<p class="card-text">
-Programmers can write their own new custom scheduling policies, task types and their handlers, and event-driven visualization tools and plug them into IRIS.
-</p>
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Customizable plugins
+          </h5>
+          <p class="card-text">
+            Programmers can write their own new custom scheduling policies, task types and their handlers, and
+            event-driven visualization tools and plug them into IRIS.
+          </p>
+        </div>
+      </div>
 
-<p></p>
+      <p></p>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Multiple languages support
-</h5>
-<p class="card-text">
-IRIS applications can be written in C, C++, Fortran, and/or Python.
-</p>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Multiple languages support
+          </h5>
+          <p class="card-text">
+            IRIS applications can be written in C, C++, Fortran, and/or Python.
+          </p>
 
-<div class="row row-cols-auto">
+          <div class="row row-cols-auto">
 
-<div class="col my-1">
-<div class="card">
-<div class="card-header code-header fs-5">
-C
-</div>
-<div class="card-body code-body">
-<pre class="card-text">
+            <div class="col my-1">
+              <div class="card">
+                <div class="card-header code-header fs-5">
+                  C
+                </div>
+                <div class="card-body code-body">
+                  <pre class="card-text">
 iris_task task;
 iris_task_create(&amp;task);
 iris_task_kernel(task, "foobar", 1, &amp;size);
 iris_task_submit(task, iris_gpu);
 </pre>
-</div>
-</div>
-</div>
+                </div>
+              </div>
+            </div>
 
-<div class="col my-1">
-<div class="card">
-<div class="card-header code-header fs-5">
-C++
-</div>
-<div class="card-body code-body">
-<pre class="card-text">
+            <div class="col my-1">
+              <div class="card">
+                <div class="card-header code-header fs-5">
+                  C++
+                </div>
+                <div class="card-body code-body">
+                  <pre class="card-text">
 iris::Task task;
 task.kernel("foobar", 1, &amp;size);
 task.submit(iris::iris_gpu);
 </pre>
-</div>
-</div>
-</div>
+                </div>
+              </div>
+            </div>
 
-<div class="col my-1">
-<div class="card">
-<div class="card-header code-header fs-5">
-Fortran
-</div>
-<div class="card-body code-body">
-<pre class="card-text">
+            <div class="col my-1">
+              <div class="card">
+                <div class="card-header code-header fs-5">
+                  Fortran
+                </div>
+                <div class="card-body code-body">
+                  <pre class="card-text">
 INTEGER(8) :: TASK
 CALL IRIS_TASK_CREATE(TASK, IERROR)
 CALL IRIS_TASK_KERNEL(TASK, "foobar", 1, SIZE, IERROR)
 CALL IRIS_TASK_SUBMIT(TASK, IRIS_GPU, IERROR)
 </pre>
-</div>
-</div>
-</div>
+                </div>
+              </div>
+            </div>
 
-<div class="col my-1">
-<div class="card">
-<div class="card-header code-header fs-5">
-Python
-</div>
-<div class="card-body code-body">
-<pre class="card-text">
+            <div class="col my-1">
+              <div class="card">
+                <div class="card-header code-header fs-5">
+                  Python
+                </div>
+                <div class="card-body code-body">
+                  <pre class="card-text">
 task = iris.task()
 task.kernel("foobar", 1, [size])
 task.submit(iris.iris_gpu)
 </pre>
-</div>
-</div>
-</div>
+                </div>
+              </div>
+            </div>
 
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
 
-<p></p>
+      <p></p>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-HPC + AI + Quantum
-</h5>
-<p class="card-text">
-An IRIS application can be a seamless mixture of HPC, AI (PyTorch, TensorFlow), and Quantum (Qiskit).
-</p>
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            HPC + AI + Quantum
+          </h5>
+          <p class="card-text">
+            An IRIS application can be a seamless mixture of HPC, AI (PyTorch, TensorFlow), and Quantum (Qiskit).
+          </p>
+        </div>
+      </div>
 
-</div>
+    </div>
 
-<!-- SEC:DOCS -->
+    <!-- SEC:DOCS -->
 
-<p id="docs" class="my-5">&nbsp;</p>
-<div>
-<h1>Docs</h1>
+    <p id="docs" class="my-5">&nbsp;</p>
+    <div>
+      <h1>Docs</h1>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-The IRIS Programming Guide
-</h5>
-<a href="https://iris-programming.readthedocs.io" class="btn btn-info text-white me-1 mb-2"><span class="fa-2x fa-fw me-1 iconify-inline" data-icon="file-icons:readthedocs"></span> Programming Guide</a>
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            The IRIS Programming Guide
+          </h5>
+          <a href="https://iris-programming.readthedocs.io" class="btn btn-info text-white me-1 mb-2"><span
+              class="fa-2x fa-fw me-1 iconify-inline" data-icon="file-icons:readthedocs"></span> Programming Guide</a>
+        </div>
+      </div>
 
-<p></p>
+      <p></p>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Tutorials
-</h5>
-<a href="pdf/2021-tutorial-saxpy.pdf" class="btn btn-outline-success my-1">Writing SAXPY in IRIS</a>
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Tutorials
+          </h5>
+          <a href="pdf/2021-tutorial-saxpy.pdf" class="btn btn-outline-success my-1">Writing SAXPY in IRIS</a>
+        </div>
+      </div>
 
-</div>
+    </div>
 
-<!-- SEC:EVENTS -->
+    <!-- SEC:EVENTS -->
 
-<p id="events" class="my-5">&nbsp;</p>
-<div>
-<h1>Events</h1>
+    <p id="events" class="my-5">&nbsp;</p>
+    <div>
+      <h1>Events</h1>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-IRIS mini workshop 2022
-</h5>
-<p class="card-text">
-January 2022, Oak Ridge National Laboratory, Oak Ridge, TN, USA
-</p>
-<a href="pdf/2022-miniworkshop-internals.pdf" class="btn btn-outline-success my-1">IRIS Internals</a>
-<a href="pdf/2022-miniworkshop-codegen.pdf" class="btn btn-outline-success my-1">Code Generation</a>
-<a href="pdf/2022-miniworkshop-dagger.pdf" class="btn btn-outline-success my-1">Scheduling Experiments</a>
-<a href="pdf/2022-miniworkshop-custompolicy.pdf" class="btn btn-outline-success my-1">Custom Policy</a>
-<a href="pdf/2022-miniworkshop-hunter.pdf" class="btn btn-outline-success my-1">Hunter</a>
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            IRIS mini workshop 2022
+          </h5>
+          <p class="card-text">
+            January 2022, Oak Ridge National Laboratory, Oak Ridge, TN, USA
+          </p>
+          <a href="pdf/2022-miniworkshop-internals.pdf" class="btn btn-outline-success my-1">IRIS Internals</a>
+          <a href="pdf/2022-miniworkshop-codegen.pdf" class="btn btn-outline-success my-1">Code Generation</a>
+          <a href="pdf/2022-miniworkshop-dagger.pdf" class="btn btn-outline-success my-1">Scheduling Experiments</a>
+          <a href="pdf/2022-miniworkshop-custompolicy.pdf" class="btn btn-outline-success my-1">Custom Policy</a>
+          <a href="pdf/2022-miniworkshop-hunter.pdf" class="btn btn-outline-success my-1">Hunter</a>
+        </div>
+      </div>
 
-<p></p>
+      <p></p>
 
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-IRIS mini workshop 2021
-</h5>
-<p class="card-text">
-January 2021, Oak Ridge National Laboratory, Oak Ridge, TN, USA
-</p>
-<a href="pdf/2021-miniworkshop.pdf" class="btn btn-outline-success">IRIS Overview</a>
-</div>
-</div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            IRIS mini workshop 2021
+          </h5>
+          <p class="card-text">
+            January 2021, Oak Ridge National Laboratory, Oak Ridge, TN, USA
+          </p>
+          <a href="pdf/2021-miniworkshop.pdf" class="btn btn-outline-success">IRIS Overview</a>
+        </div>
+      </div>
 
-</div>
+    </div>
 
-<!-- SEC:PUBLICATIONS -->
+    <!-- SEC:PUBLICATIONS -->
 
-<p id="publications" class="my-5">&nbsp;</p>
-<div>
-<h1>Publications</h1>
+    <p id="publications" class="my-5">&nbsp;</p>
+    <div>
+      <h1>Publications</h1>
 
-<!-- Card7 -->
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Tiling Framework for Heterogeneous Computing of Matrix-Based Tiled Algorithms
-<span class="badge bg-dark">PPoPP ExHET 2023</span>
-</h5>
-<p class="card-text">
-Narasinga Rao Miniskar, Mohammad Alaul Haque Monil, Pedro Valero-Lara, Frank Y. Liu, Jeffrey S. Vetter
-</p>
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exhet2023">cite this</button>
-<!-- <a href="https://doi.org/10.1007/978-3-031-23606-8_14" class="btn btn-outline-success">doi</a> -->
-<a href="pdf/exhet2023.pdf" class="btn btn-outline-success">pdf</a>
-<a href="pdf/exhet2023-slide.pdf" class="btn btn-outline-success">slide</a>
+      <!-- Card7 -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Tiling Framework for Heterogeneous Computing of Matrix-Based Tiled Algorithms
+            <span class="badge bg-dark">PPoPP ExHET 2023</span>
+          </h5>
+          <p class="card-text">
+            Narasinga Rao Miniskar, Mohammad Alaul Haque Monil, Pedro Valero-Lara, Frank Y. Liu, Jeffrey S. Vetter
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exhet2023">cite
+            this</button>
+          <!-- <a href="https://doi.org/10.1007/978-3-031-23606-8_14" class="btn btn-outline-success">doi</a> -->
+          <a href="pdf/exhet2023.pdf" class="btn btn-outline-success">pdf</a>
+          <a href="pdf/exhet2023-slide.pdf" class="btn btn-outline-success">slide</a>
 
-<div class="modal fade" id="exhet2023" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title">BibTeX</h5>
-<button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body text-start">
-<pre class="font-sm" id="bib">
+          <div class="modal fade" id="exhet2023" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">BibTeX</h5>
+                  <button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <pre class="font-sm" id="bib">
 @inproceedings{exhet2023,
   author    = {Miniskar, Narasinga Rao and Mohammad, Alaul Haque Monil and Pedro, Valero-Lara and Liu, Frank and Vetter, Jeffrey S},
   title     = {Tiling Framework for Heterogeneous Computing of Matrix-Based Tiled Algorithms},
@@ -365,44 +378,46 @@ Narasinga Rao Miniskar, Mohammad Alaul Haque Monil, Pedro Valero-Lara, Frank Y. 
   year      = {2023},
 }
 </pre>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i class="far fa-copy"></i> Copy</button>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i
+                      class="far fa-copy"></i> Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</div>
-</div>
-<!-- /Card7 -->
+        </div>
+      </div>
+      <!-- /Card7 -->
 
-<p></p>
+      <p></p>
 
-<!-- Card6 -->
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Adrastea: An Efficient FPGA Design Environment for Heterogeneous Scientific Computing and Machine Learning
-<span class="badge bg-dark">SMC 2022</span>
-</h5>
-<p class="card-text">
-Aaron R. Young, Narasinga Rao Miniskar, Frank Liu, Willem Blokland, Jeffrey S. Vetter
-</p>
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#young2023adrastea">cite this</button>
-<a href="https://doi.org/10.1007/978-3-031-23606-8_14" class="btn btn-outline-success">doi</a>
-<a href="pdf/young2023adrastea.pdf" class="btn btn-outline-success">pdf</a>
-<a href="pdf/young2023adrastea-slide.pdf" class="btn btn-outline-success">slide</a>
+      <!-- Card6 -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Adrastea: An Efficient FPGA Design Environment for Heterogeneous Scientific Computing and Machine Learning
+            <span class="badge bg-dark">SMC 2022</span>
+          </h5>
+          <p class="card-text">
+            Aaron R. Young, Narasinga Rao Miniskar, Frank Liu, Willem Blokland, Jeffrey S. Vetter
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#young2023adrastea">cite
+            this</button>
+          <a href="https://doi.org/10.1007/978-3-031-23606-8_14" class="btn btn-outline-success">doi</a>
+          <a href="pdf/young2023adrastea.pdf" class="btn btn-outline-success">pdf</a>
+          <a href="pdf/young2023adrastea-slide.pdf" class="btn btn-outline-success">slide</a>
 
-<div class="modal fade" id="young2023adrastea" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title">BibTeX</h5>
-<button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body text-start">
-<pre class="font-sm" id="bib_young2023adrastea">
+          <div class="modal fade" id="young2023adrastea" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">BibTeX</h5>
+                  <button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <pre class="font-sm" id="bib_young2023adrastea">
 @inproceedings{young2023adrastea,
   title={Adrastea: An Efficient FPGA Design Environment for Heterogeneous Scientific Computing and Machine Learning},
   author={Young, Aaron R and Miniskar, Narasinga Rao and Liu, Frank and Blokland, Willem and Vetter, Jeffrey S},
@@ -412,44 +427,47 @@ Aaron R. Young, Narasinga Rao Miniskar, Frank Liu, Willem Blokland, Jeffrey S. V
   organization={Springer Nature Switzerland Cham}
 }
 </pre>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i class="far fa-copy"></i> Copy</button>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i
+                      class="far fa-copy"></i> Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</div>
-</div>
-<!-- /Card6 -->
+        </div>
+      </div>
+      <!-- /Card6 -->
 
-<p></p>
+      <p></p>
 
-<!-- Card5 -->
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-LaRIS: Targeting Portability and Productivity for LAPACK Codes on Extreme Heterogeneous Systems by Using IRIS
-<span class="badge bg-dark">RSDHA 2022</span>
-</h5>
-<p class="card-text">
-Mohammad Alaul Haque Monil, Narasinga Rao Miniskar, Frank Y. Liu, Jeffrey S. Vetter, Pedro Valero-Lara
-</p>
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#monil2022laris">cite this</button>
-<a href="https://doi.org/10.1109/RSDHA56811.2022.00007" class="btn btn-outline-success">doi</a>
-<a href="pdf/monil2022laris.pdf" class="btn btn-outline-success">pdf</a>
-<a href="pdf/monil2022laris-slide.pdf" class="btn btn-outline-success">slide</a>
+      <!-- Card5 -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            LaRIS: Targeting Portability and Productivity for LAPACK Codes on Extreme Heterogeneous Systems by Using
+            IRIS
+            <span class="badge bg-dark">RSDHA 2022</span>
+          </h5>
+          <p class="card-text">
+            Mohammad Alaul Haque Monil, Narasinga Rao Miniskar, Frank Y. Liu, Jeffrey S. Vetter, Pedro Valero-Lara
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#monil2022laris">cite
+            this</button>
+          <a href="https://doi.org/10.1109/RSDHA56811.2022.00007" class="btn btn-outline-success">doi</a>
+          <a href="pdf/monil2022laris.pdf" class="btn btn-outline-success">pdf</a>
+          <a href="pdf/monil2022laris-slide.pdf" class="btn btn-outline-success">slide</a>
 
-<div class="modal fade" id="monil2022laris" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title">BibTeX</h5>
-<button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body text-start">
-<pre class="font-sm" id="bib_monil2022laris">
+          <div class="modal fade" id="monil2022laris" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">BibTeX</h5>
+                  <button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <pre class="font-sm" id="bib_monil2022laris">
 @inproceedings{monil2022laris,
   title={LaRIS: Targeting Portability and Productivity for LAPACK Codes on Extreme Heterogeneous Systems by Using IRIS},
   author={Monil, Mohammad Alaul Haque and Miniskar, Narasinga Rao and Liu, Frank Y and Vetter, Jeffrey S and Valero-Lara, Pedro},
@@ -459,44 +477,46 @@ Mohammad Alaul Haque Monil, Narasinga Rao Miniskar, Frank Y. Liu, Jeffrey S. Vet
   organization={IEEE}
 }
 </pre>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i class="far fa-copy"></i> Copy</button>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i
+                      class="far fa-copy"></i> Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</div>
-</div>
-<!-- /Card5 -->
+        </div>
+      </div>
+      <!-- /Card5 -->
 
-<p></p>
+      <p></p>
 
-<!-- Card4 -->
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Iris-blas: Towards a performance portable and heterogeneous blas library
-<span class="badge bg-dark">HiPC 2022</span>
-</h5>
-<p class="card-text">
-Narasinga Rao Miniskar, Mohammad Alaul Haque Monil, Pedro Valero-Lara, Frank Liu, Jeffrey S. Vetter
-</p>
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miniskar2022iris">cite this</button>
-<a href="https://doi.org/10.1109/HiPC56025.2022.00042" class="btn btn-outline-success">doi</a>
-<a href="pdf/miniskar2022iris.pdf" class="btn btn-outline-success">pdf</a>
-<a href="pdf/miniskar2022iris-slide.pdf" class="btn btn-outline-success">slide</a>
+      <!-- Card4 -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Iris-blas: Towards a performance portable and heterogeneous blas library
+            <span class="badge bg-dark">HiPC 2022</span>
+          </h5>
+          <p class="card-text">
+            Narasinga Rao Miniskar, Mohammad Alaul Haque Monil, Pedro Valero-Lara, Frank Liu, Jeffrey S. Vetter
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miniskar2022iris">cite
+            this</button>
+          <a href="https://doi.org/10.1109/HiPC56025.2022.00042" class="btn btn-outline-success">doi</a>
+          <a href="pdf/miniskar2022iris.pdf" class="btn btn-outline-success">pdf</a>
+          <a href="pdf/miniskar2022iris-slide.pdf" class="btn btn-outline-success">slide</a>
 
-<div class="modal fade" id="miniskar2022iris" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title">BibTeX</h5>
-<button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body text-start">
-<pre class="font-sm" id="bib_miniskar2022iris">
+          <div class="modal fade" id="miniskar2022iris" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">BibTeX</h5>
+                  <button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <pre class="font-sm" id="bib_miniskar2022iris">
 @inproceedings{miniskar2022iris,
   title={Iris-blas: Towards a performance portable and heterogeneous blas library},
   author={Miniskar, Narasinga Rao and Monil, Mohammad Alaul Haque and Valero-Lara, Pedro and Liu, Frank and Vetter, Jeffrey S},
@@ -506,44 +526,46 @@ Narasinga Rao Miniskar, Mohammad Alaul Haque Monil, Pedro Valero-Lara, Frank Liu
   organization={IEEE}
 }
 </pre>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i class="far fa-copy"></i> Copy</button>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i
+                      class="far fa-copy"></i> Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</div>
-</div>
-<!-- /Card4 -->
+        </div>
+      </div>
+      <!-- /Card4 -->
 
-<p></p>
+      <p></p>
 
-<!-- Card3 -->
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-A Hierarchical Task Scheduler for Heterogeneous Computing
-<span class="badge bg-dark">ISC High Performance 2021</span>
-</h5>
-<p class="card-text">
-Narasinga Rao Miniskar, Frank Liu, Aaron R. Young, Dwaipayan Chakraborty, Jeffrey S. Vetter
-</p>
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#miniskar2021hierarchical">cite this</button>
-<a href="https://doi.org/10.1007/978-3-030-78713-4_4" class="btn btn-outline-success">doi</a>
-<a href="pdf/miniskar2021hierarchical.pdf" class="btn btn-outline-success">pdf</a>
-<a href="pdf/miniskar2021hierarchical-slide.pdf" class="btn btn-outline-success">slide</a>
+      <!-- Card3 -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            A Hierarchical Task Scheduler for Heterogeneous Computing
+            <span class="badge bg-dark">ISC High Performance 2021</span>
+          </h5>
+          <p class="card-text">
+            Narasinga Rao Miniskar, Frank Liu, Aaron R. Young, Dwaipayan Chakraborty, Jeffrey S. Vetter
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal"
+            data-bs-target="#miniskar2021hierarchical">cite this</button>
+          <a href="https://doi.org/10.1007/978-3-030-78713-4_4" class="btn btn-outline-success">doi</a>
+          <a href="pdf/miniskar2021hierarchical.pdf" class="btn btn-outline-success">pdf</a>
+          <a href="pdf/miniskar2021hierarchical-slide.pdf" class="btn btn-outline-success">slide</a>
 
-<div class="modal fade" id="miniskar2021hierarchical" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title">BibTeX</h5>
-<button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body text-start">
-<pre class="font-sm" id="bib_miniskar2021hierarchical">
+          <div class="modal fade" id="miniskar2021hierarchical" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">BibTeX</h5>
+                  <button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <pre class="font-sm" id="bib_miniskar2021hierarchical">
 @inproceedings{miniskar2021hierarchical,
   title={A Hierarchical Task Scheduler for Heterogeneous Computing},
   author={Miniskar, Narasinga Rao and Liu, Frank and Young, Aaron R and Chakraborty, Dwaipayan and Vetter, Jeffrey S},
@@ -553,44 +575,47 @@ Narasinga Rao Miniskar, Frank Liu, Aaron R. Young, Dwaipayan Chakraborty, Jeffre
   organization={Springer International Publishing Cham}
 }
 </pre>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i class="far fa-copy"></i> Copy</button>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i
+                      class="far fa-copy"></i> Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</div>
-</div>
-<!-- /Card3 -->
+        </div>
+      </div>
+      <!-- /Card3 -->
 
-<p></p>
+      <p></p>
 
-<!-- Card2 -->
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-Toward Performance Portable Programming for Heterogeneous Systems on a Chip: A Case Study with Qualcomm Snapdragon SoC
-<span class="badge bg-dark">HPEC 2021</span>
-</h5>
-<p class="card-text">
-Anthony Cabrera, Seth Hitefield, Jungwon Kim, Seyong Lee, Narasinga Rao Miniskar, Jeffrey S. Vetter
-</p>
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#i9622794">cite this</button>
-<a href="https://doi.org/10.1109/HPEC49654.2021.9622794" class="btn btn-outline-success">doi</a>
-<a href="pdf/hpec21-cosmiccastle.pdf" class="btn btn-outline-success">pdf</a>
-<a href="pdf/hpec21-cosmiccastle-slide.pdf" class="btn btn-outline-success">slide</a>
+      <!-- Card2 -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            Toward Performance Portable Programming for Heterogeneous Systems on a Chip: A Case Study with Qualcomm
+            Snapdragon SoC
+            <span class="badge bg-dark">HPEC 2021</span>
+          </h5>
+          <p class="card-text">
+            Anthony Cabrera, Seth Hitefield, Jungwon Kim, Seyong Lee, Narasinga Rao Miniskar, Jeffrey S. Vetter
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#i9622794">cite
+            this</button>
+          <a href="https://doi.org/10.1109/HPEC49654.2021.9622794" class="btn btn-outline-success">doi</a>
+          <a href="pdf/hpec21-cosmiccastle.pdf" class="btn btn-outline-success">pdf</a>
+          <a href="pdf/hpec21-cosmiccastle-slide.pdf" class="btn btn-outline-success">slide</a>
 
-<div class="modal fade" id="i9622794" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title">BibTeX</h5>
-<button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body text-start">
-<pre class="font-sm" id="bib_9622794">
+          <div class="modal fade" id="i9622794" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">BibTeX</h5>
+                  <button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <pre class="font-sm" id="bib_9622794">
 @INPROCEEDINGS{9622794,
   author={Cabrera, Anthony and Hitefield, Seth and Kim, Jungwon and Lee, Seyong and Miniskar, Narasinga Rao and Vetter, Jeffrey S.},
   booktitle={2021 IEEE High Performance Extreme Computing Conference (HPEC)},
@@ -602,44 +627,46 @@ Anthony Cabrera, Seth Hitefield, Jungwon Kim, Seyong Lee, Narasinga Rao Miniskar
   doi={10.1109/HPEC49654.2021.9622794}
 }
 </pre>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i class="far fa-copy"></i> Copy</button>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i
+                      class="far fa-copy"></i> Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</div>
-</div>
-<!-- /Card2 -->
+        </div>
+      </div>
+      <!-- /Card2 -->
 
-<p></p>
+      <p></p>
 
-<!-- Card1 -->
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-IRIS: A Portable Runtime System Exploiting Multiple Heterogeneous Programming Systems
-<span class="badge bg-dark">HPEC 2021</span>
-</h5>
-<p class="card-text">
-Jungwon Kim, Seyong Lee, Beau Johnston, Jeffrey S. Vetter
-</p>
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#Kim_2021_IRIS">cite this</button>
-<a href="https://doi.org/10.1109/HPEC49654.2021.9622873" class="btn btn-outline-success">doi</a>
-<a href="pdf/hpec21-iris.pdf" class="btn btn-outline-success">pdf</a>
-<a href="pdf/hpec21-iris-slide.pdf" class="btn btn-outline-success">slide</a>
+      <!-- Card1 -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            IRIS: A Portable Runtime System Exploiting Multiple Heterogeneous Programming Systems
+            <span class="badge bg-dark">HPEC 2021</span>
+          </h5>
+          <p class="card-text">
+            Jungwon Kim, Seyong Lee, Beau Johnston, Jeffrey S. Vetter
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#Kim_2021_IRIS">cite
+            this</button>
+          <a href="https://doi.org/10.1109/HPEC49654.2021.9622873" class="btn btn-outline-success">doi</a>
+          <a href="pdf/hpec21-iris.pdf" class="btn btn-outline-success">pdf</a>
+          <a href="pdf/hpec21-iris-slide.pdf" class="btn btn-outline-success">slide</a>
 
-<div class="modal fade" id="Kim_2021_IRIS" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title">IRIS BibTeX</h5>
-<button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body text-start">
-<pre class="font-sm" id="bib_Kim_2021_IRIS">
+          <div class="modal fade" id="Kim_2021_IRIS" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">IRIS BibTeX</h5>
+                  <button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <pre class="font-sm" id="bib_Kim_2021_IRIS">
 @inproceedings{Kim:2021:IRIS,
  author={Jungwon Kim and Seyong Lee and Beau Johnston and Jeffrey S. Vetter},
  title={{IRIS: A Portable Runtime System Exploiting Multiple Heterogeneous Programming Systems}},
@@ -650,55 +677,57 @@ Jungwon Kim, Seyong Lee, Beau Johnston, Jeffrey S. Vetter
  doi={10.1109/HPEC49654.2021.9622873}
 }
 </pre>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i class="far fa-copy"></i> Copy</button>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i
+                      class="far fa-copy"></i> Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</div>
-</div>
-<!-- /Card1 -->
+        </div>
+      </div>
+      <!-- /Card1 -->
 
 
-</div>
+    </div>
 
-<!-- SEC:CITATION -->
+    <!-- SEC:CITATION -->
 
-<p id="citation" class="my-5">&nbsp;</p>
-<div>
-<h1>Citation</h1>
+    <p id="citation" class="my-5">&nbsp;</p>
+    <div>
+      <h1>Citation</h1>
 
-<!-- Citation Card -->
-<div class="card">
-<div class="card-body">
-<h5 class="card-title">
-If you use IRIS, please cite the following paper:
-</h5>
-<p></p>
-<h5>
-IRIS: A Portable Runtime System Exploiting Multiple Heterogeneous Programming Systems
-<span class="badge bg-dark">HPEC 2021</span>
-</h5>
-<p class="card-text">
-Jungwon Kim, Seyong Lee, Beau Johnston, Jeffrey S. Vetter
-</p>
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#main_cite">cite this</button>
-<a href="https://doi.org/10.1109/HPEC49654.2021.9622873" class="btn btn-outline-success">doi</a>
-<a href="pdf/hpec21-iris.pdf" class="btn btn-outline-success">pdf</a>
-<a href="pdf/hpec21-iris-slide.pdf" class="btn btn-outline-success">slide</a>
+      <!-- Citation Card -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            If you use IRIS, please cite the following paper:
+          </h5>
+          <p></p>
+          <h5>
+            IRIS: A Portable Runtime System Exploiting Multiple Heterogeneous Programming Systems
+            <span class="badge bg-dark">HPEC 2021</span>
+          </h5>
+          <p class="card-text">
+            Jungwon Kim, Seyong Lee, Beau Johnston, Jeffrey S. Vetter
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#main_cite">cite
+            this</button>
+          <a href="https://doi.org/10.1109/HPEC49654.2021.9622873" class="btn btn-outline-success">doi</a>
+          <a href="pdf/hpec21-iris.pdf" class="btn btn-outline-success">pdf</a>
+          <a href="pdf/hpec21-iris-slide.pdf" class="btn btn-outline-success">slide</a>
 
-<div class="modal fade" id="main_cite" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title">IRIS BibTeX</h5>
-<button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body text-start">
-<pre class="font-sm" id="bib_IRIS_Cite">
+          <div class="modal fade" id="main_cite" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">IRIS BibTeX</h5>
+                  <button type="button" class="btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <pre class="font-sm" id="bib_IRIS_Cite">
 @inproceedings{Kim:2021:IRIS,
  author={Jungwon Kim and Seyong Lee and Beau Johnston and Jeffrey S. Vetter},
  title={{IRIS: A Portable Runtime System Exploiting Multiple Heterogeneous Programming Systems}},
@@ -709,19 +738,20 @@ Jungwon Kim, Seyong Lee, Beau Johnston, Jeffrey S. Vetter
  doi={10.1109/HPEC49654.2021.9622873}
 }
 </pre>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i class="far fa-copy"></i> Copy</button>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" onclick="copytoclipboard('bib')"><i
+                      class="far fa-copy"></i> Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</div>
-</div>
-<!-- /Citation Card -->
+        </div>
+      </div>
+      <!-- /Citation Card -->
 
-</div>
+    </div>
 
 <!-- SEC:TEAM -->
 <!--
@@ -793,20 +823,26 @@ Jungwon Kim, Seyong Lee, Beau Johnston, Jeffrey S. Vetter
 
 </div>
 
-</div>
--->
+    <!-- SEC:TEAM -->
 
-<!-- SEC:FOOTER -->
+    <p id="collaborators" class="my-5">&nbsp;</p>
+    <div>
+      <h1>Collaborators</h1>
+    </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- SEC:FOOTER -->
 
-<div class="container my-4 text-center fw-light">
-<script>document.write(new Date().getFullYear())</script> iris-programming.github.io
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
 
-</div>
+    <div class="container my-4 text-center fw-light">
+      <script>document.write(new Date().getFullYear())</script> iris-programming.github.io
 
-</div>
+    </div>
+
+  </div>
 
 </body>
-</html>
 
+</html>
